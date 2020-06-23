@@ -1,0 +1,83 @@
+/* Header Parallax Element Style */
+.paral {
+    min-height: 700px;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: 50% 50%;
+  }
+  /* Paragrapgh for Parallax Section */
+  .paral p {
+    font-size: 24px;
+    color: #f5f5f5;
+    /* vertical-align: 500px; */
+    position: absolute;
+    top: 70%;
+    left: 30%;
+    line-height: 60px;
+    font-style: italic;
+  }
+  /* Image for Parallax Section */
+  .paralsec {
+    background-image: url("../UGrow/Images/ugo_preto_fundo.png");
+  }
+
+/* Remove Bottom Marging from Jumbotron */
+.jumbotron{margin-bottom: 0;}
+
+/* Provocacoes */
+.provocacoes {
+    background-color: white;
+    height: 230px;
+    }
+    .provocacoes h1 {
+        font-family: Roboto;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 24px;
+        padding-top: 20px;
+        line-height: 40px;
+        /* identical to box height */
+        text-align: center;
+        color: #A41212;
+    }
+    .provocacoes p {
+        font-family: Neuton;
+        font-style: italic;
+        font-weight: normal;
+        font-size: 24px;
+        line-height: 30px;
+        text-align: center;
+        color: #000000;
+    }
+
+/* Blog */
+.blog {
+    background-color: white;
+}
+    .blog h1 {
+        font-family: Roboto;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 24px;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        line-height: 40px;
+        /* identical to box height */
+        text-align: center;
+        color: #A41212;
+    }
+
+/*Contato */
+
+
+/* Footer */
+.wn-footer {
+    padding: 2.5rem 0;
+    text-align: center;
+    color: white;
+    background-color: #607d8b;
+    border-top: .05rem solid #e5e5e5;
+  }
+  .wn-footer a {
+    color: yellow;
+  }
